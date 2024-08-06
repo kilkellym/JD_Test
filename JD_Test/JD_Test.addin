@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>JD_Test - Command 1</Text>
+    <Description>Some description</Description>
+    <Assembly>JD_Test\JD_Test.dll</Assembly>
+    <FullClassName>JD_Test.Command1</FullClassName>
+    <ClientId>e1e27869-6cd4-41b8-9f04-d3bdec216015</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>JD_Test - Command 2</Text>
+    <Description>Some description</Description>
+    <Assembly>JD_Test\JD_Test.dll</Assembly>
+    <FullClassName>JD_Test.Command2</FullClassName>
+    <ClientId>3305db67-cace-48a1-a7da-47074c4a45b7</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>JD_Test</Name>
+    <Assembly>JD_Test\JD_Test.dll</Assembly>
+    <FullClassName>JD_Test.App</FullClassName>
+    <ClientId>61db6381-2bd7-4d5e-86ab-5c11e5279955</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
